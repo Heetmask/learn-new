@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+p{
+    display: inline-block;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-right:594px; 
+    margin-bottom: 241px;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav a{
+    color: #FFC700;
+    text-decoration: none;
+    margin-right:42px ;
+}
+
+h1{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 64px;
+   color: #000000;
+   width:803px ;
+}
+
+.container{
+    max-width:1300px ;
+    margin: auto;
+    background-image: url(images/teacher.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20% 80% ;
+}
