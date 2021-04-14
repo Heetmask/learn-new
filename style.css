@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#cheaters img{
+    width: 250px;
+}
+
+#cheaters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cheaters .cheater{
+    max-width: 25%;
+}
+
+#cheaters p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+#cheaters h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
