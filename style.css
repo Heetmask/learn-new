@@ -14,25 +14,36 @@ header{
     justify-content: space-between;
 }
 
-.container nav{
-    margin-top: 50px;
+#bodddy form{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    margin-top: 25px;
+    margin-bottom: 55px;
 }
 
-.container a{
-    text-decoration: none;
-    color: #FFC700;
+#bodddy input{
+    width: 70%;
+    background: #fff;
+    padding-left: 36px;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    margin-right: 45px;
-    
+    font-weight: 300;
+    font-size: 24px;
 }
 
-.container h3{
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    margin-top: 20px;
+#bodddy button{
+  height: 65px;
+  width: 310px;
+  background: #FFC700;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
 }
 
+#bodddy input, button {
+    border-radius: 5px;
+}
 
 #cheaters{
     display: flex;
@@ -44,7 +55,7 @@ header{
     margin-top: 20px;
 }
 
-h1{
+#bodddy h1{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     margin-top: 72px;
@@ -54,14 +65,22 @@ h1{
 #cheaters .cheater{
     width: 30%;
     margin-top: 8px;
+    margin-bottom: 50px;
 }
 
 #cheaters p{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    font-size: 22px;
 }
 
 #cheaters h3{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+#cheaters .star{
+    margin-bottom: 3px;
 }
