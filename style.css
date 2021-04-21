@@ -80,3 +80,17 @@
 }
 
 .doccum {}
+
+.become-rep {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.rep {
+    width: 640px;
+    height: 90px;
+    background-color: #FFC700;
+    text-decoration: white;
+    font-size: 39px;
+}
