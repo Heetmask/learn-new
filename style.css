@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+h1{
+    
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 77px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+margin-left: 330px;
+}
+
+.seet-lol{
+    display: flex;
+    justify-content: center;
+}
+.lol p{
+    margin-right:200px;
+}
+
+.lol div{
+    padding-top:6px;
+    width: 200px;
+    background-color: #FFC700; 
+}
+
+.lol2 div{
+    padding-top:6px;
+    width: 200px;
+    background-color: #DFDFDF; 
+}
+
+.pop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+select{
+    margin-top: 20px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #666666;
+}
+
+.put{
+    color: #ffffff;
+    background-color: #FFC700;
+    margin-top:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:110px;
+    padding-left: 110px;  
+}
