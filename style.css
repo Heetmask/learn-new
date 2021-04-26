@@ -49,6 +49,7 @@ h1 {
 }
 
 .pgp div {
+    margin-top: 50px;
     height: 15px;
     padding-top: 6px;
     width: 290px;
@@ -56,6 +57,7 @@ h1 {
 }
 
 .pgp2 div {
+    margin-top: 50px;
     height: 15px;
     padding-top: 6px;
     width: 290px;
