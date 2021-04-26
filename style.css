@@ -41,17 +41,24 @@ header{
   font-size: 24px;
 }
 
-#bodddy input, button {
+#bodddy input, button{
     border-radius: 5px;
 }
 
-#cheaters{
+#bodddy button{
+    border-radius: 5px;
+    border-color: #FFC700;
+}
+
+#teachers{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background: #ffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
 }
 
-#cheaters img{
+#teachers img{
     margin-top: 20px;
 }
 
@@ -62,19 +69,21 @@ header{
     margin-bottom: 25px;
 }
 
-#cheaters .cheater{
+#teachers .teacher{
     width: 30%;
-    margin-top: 8px;
+    margin-left: 5px;
     margin-bottom: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
 }
 
-#cheaters p{
+#teachers p{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 22px;
 }
 
-#cheaters h3{
+#teachers h3{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     margin-top: 5px;
@@ -84,3 +93,5 @@ header{
 #cheaters .star{
     margin-bottom: 3px;
 }
+
+@media()
