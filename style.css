@@ -8,19 +8,17 @@ body{
     font-family: 'Inter', sans-serif;;
 }
 
-.container{
-    max-width: 1300px;
-    margin: auto;
-}
-
-p{
+.teach{
     display: inline-block;
     color: #000000;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    margin-right:594px; 
-    margin-bottom: 241px;
+    margin-right:595px; 
+}
+
+header{
+    margin-top:55px ;
 }
 
 nav{
@@ -30,7 +28,9 @@ nav{
 nav a{
     color: #FFC700;
     text-decoration: none;
-    margin-right:42px ;
+    margin-right:45px ;
+    font-weight: normal;
+    font-size: 24px;
 }
 
 h1{
@@ -41,11 +41,82 @@ h1{
    width:803px ;
 }
 
-.container{
-    max-width:1300px ;
-    margin: auto;
+#teacher{
     background-image: url(images/teacher.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 20% 80% ;
+    background-position: right 50px  ;
+    padding-bottom:247px ;
+    padding-top:251px ;
+}
+
+.container{
+    max-width:1300px ;
+    margin: auto;
+}
+
+#teacher .found{
+    display: inline-block;
+    background: #FFC700;
+    width: 250px;
+    height: 75px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 27px;
+    margin-top: 51px;
+    margin-right:40px ;
+}
+
+#teacher .become{
+    background: #FFFFFF;
+    width: 250px;
+    height: 75px;
+    color: #FFC700;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 26px;
+    margin-top: 51px;
+    border: 1px  #FFC700 solid;
+    text-align: center;
+    padding-bottom: 27px;
+    padding-right:44px ;
+    padding-left:44px ;
+}
+
+.predmetbg{
+    background: rgba(255, 199, 0, 0.3);
+    text-align: center;
+    padding-top:55px ;
+}
+
+.predmetbg h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #222222;
+    margin-bottom: 35px;
+}
+
+.predmet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.predmet a{
+    display: flex;
+    width: 22%;
+    height: 133px;
+    background: #FFC700;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom:40px ;
 }
