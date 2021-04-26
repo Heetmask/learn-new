@@ -120,3 +120,35 @@ h1{
     font-size: 32px;
     margin-bottom:40px ;
 }
+
+.look{
+    width: 420px;
+    height: 83px;
+    border: 1px #FFC700 solid ;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color:#FFC700 ;
+    margin-left: 880px;
+    margin-top: 35px;
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.review{
+    text-align: center;
+    color: #222222;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;    
+}
+
+col-6{
+    display: flex;
+    justify-content: space-between;
+}
