@@ -3,6 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+.teach {
+    display: inline-block;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 595px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    color: #FFC700;
+    text-decoration: none;
+    margin-right: 45px;
+    font-weight: normal;
+    font-size: 24px;
+}
 
 .container{
     max-width: 1300px;
@@ -13,13 +33,15 @@ h1{
     
 font-style: normal;
 font-weight: 600;
-font-size: 30px;
+font-size: 64px;
 line-height: 77px;
 display: flex;
 align-items: center;
 text-align: center;
 color: #000000;
-margin-left: 330px;
+padding-right: 250px;
+margin-left: 230px;
+padding-bottom:30px; 
 }
 
 .seet-lol{
@@ -27,18 +49,18 @@ margin-left: 330px;
     justify-content: center;
 }
 .lol p{
-    margin-right:200px;
+    margin-right:400px;
 }
 
 .lol div{
-    padding-top:6px;
-    width: 200px;
+    padding-top:15px;
+    width: 390px;
     background-color: #FFC700; 
 }
 
 .lol2 div{
-    padding-top:6px;
-    width: 200px;
+    padding-top:15px;
+    width: 390px;
     background-color: #DFDFDF; 
 }
 
@@ -50,26 +72,31 @@ margin-left: 330px;
 }
 
 input{
-    margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 100px;
+    width: 640px;
+    padding-top:23px;
+    padding-bottom: 23px;
+    margin-top: 20px; 
+    font-size:  35px;
+    
 }
 
 select{
+    width: 640px;
     margin-top: 20px;
     padding-right: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 23px;
+    padding-bottom: 23px;
     color: #666666;
+    font-size:  35px;
 }
 
 .put{
     color: #ffffff;
     background-color: #FFC700;
     margin-top:25px;
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-right:110px;
-    padding-left: 110px;  
+    width: 640px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size:  35px;
+    padding-left: 255px;
 }
