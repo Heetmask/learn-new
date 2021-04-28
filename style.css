@@ -35,12 +35,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 64px;
 line-height: 77px;
-display: flex;
-align-items: center;
 text-align: center;
 color: #000000;
-padding-right: 250px;
-margin-left: 230px;
 padding-bottom:30px; 
 }
 
@@ -99,4 +95,24 @@ select{
     padding-bottom: 25px;
     font-size:  35px;
     padding-left: 255px;
+}
+@media(max-width:1300px){
+    .container{
+        max-width: 90%;
+    }
+    .teach{
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:837px){
+    .teach{
+        margin-right: 30%;
+    }
+}
+
+@media{
+    h1{
+        font-size:50px ;
+    }
 }
