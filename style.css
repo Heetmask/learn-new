@@ -148,7 +148,70 @@ h1{
     font-size: 48px;    
 }
 
-col-6{
+.comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    border: 2px #FFC700 solid;
+    margin-top: 20px;
+}
+
+.dog{
+    width: 20%;
+}
+
+.text{
+    width: 70%;
+}
+
+.allcomments{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.person{
+    width: 120px;
+    height:120px;
+}
+
+.goblin{
+    width: 120px;
+    height:120px;
+}
+
+.tree{
+    width: 140px;
+    height:140px;
+}
+
+.date{
+    color: rgba(0, 0, 0, 0.7);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.desk{
+    background-image: url(images/desk.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 227px 224px;
+    margin-top: 100px;
+}
+
+.our{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+    width: 992px;
 }
