@@ -17,7 +17,6 @@ header{
 #bodddy form{
     display: flex;
     justify-content: space-between;
-    height: 65px;
     margin-top: 25px;
     margin-bottom: 55px;
 }
@@ -100,6 +99,20 @@ img{
     margin-bottom: 3px;
 }
 
+#links .link{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:1080px){
+    .container{
+        max-width: 90%;
+    }
+    #bodddy button{
+        margin-left: 20px;
+    }
+}
+
 @media(max-width: 995px){
     .container{
         max-width: 90%;
@@ -138,13 +151,46 @@ img{
         margin-bottom: 20px;
     }
     #teachers p, #teachers h3{
-        font-size: 22px;
+        font-size: 25px;
+    }
+    #bodddy form{
+        flex-direction: column;
     }
     ::placeholder{
       font-size : 25px;
     }
     #bodddy input{
         padding-left: 7px;
+        width: 80%;
+        font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+    #bodddy button{
+        background: #FFC700;
+        width: 80%;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
 }
+
+@media(max-width:320px){
+    ::placeholder{
+        font-size : 25px;
+      }
+      #bodddy input{
+        width: 100%;
+      }
+      #bodddy button{
+        width: 100%;
+      }
+  
+  }
+}
+
