@@ -40,21 +40,21 @@ color: #000000;
 padding-bottom:30px; 
 }
 
-.seet-lol{
+.seet-pgp{
     display: flex;
     justify-content: center;
 }
-.lol p{
+.pgp p{
     margin-right:400px;
 }
 
-.lol div{
+.pgp div{
     padding-top:15px;
     width: 390px;
     background-color: #FFC700; 
 }
 
-.lol2 div{
+.pgp2 div{
     padding-top:15px;
     width: 390px;
     background-color: #DFDFDF; 
@@ -111,8 +111,57 @@ select{
     }
 }
 
-@media{
-    h1{
-        font-size:50px ;
+@media(max-width: 1157px) {
+    h1 {
+        font-size: 50px;
+    }
+    .pgp p {
+        font-size: 20px;
+    }
+    .pgp2 p {
+        font-size: 20px;
+    }
+    .pgp div {}
+}
+
+@media(max-width: 1009px) {
+    h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media(max-width: 903px) {
+    h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
+@media(max-width: 797px) {
+    h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:750px){
+    input{
+        width: 320px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:750px){
+    select{
+        width: 320px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:500px){
+    .pgp2{
+
+
     }
 }
