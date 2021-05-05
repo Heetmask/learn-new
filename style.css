@@ -49,12 +49,14 @@ padding-bottom:30px;
 }
 
 .pgp div{
+
     padding-top:15px;
     width: 390px;
     background-color: #FFC700; 
 }
 
 .pgp2 div{
+
     padding-top:15px;
     width: 390px;
     background-color: #DFDFDF; 
@@ -86,16 +88,20 @@ select{
     font-size:  35px;
 }
 
-.put{
+.ter{
     color: #ffffff;
     background-color: #FFC700;
     margin-top:25px;
     width: 640px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 90px;
     font-size:  35px;
-    padding-left: 255px;
+    border: none;
 }
+
+.put{
+    display: flex;
+}
+
 @media(max-width:1300px){
     .container{
         max-width: 90%;
@@ -115,13 +121,6 @@ select{
     h1 {
         font-size: 50px;
     }
-    .pgp p {
-        font-size: 20px;
-    }
-    .pgp2 p {
-        font-size: 20px;
-    }
-    .pgp div {}
 }
 
 @media(max-width: 1009px) {
@@ -159,9 +158,33 @@ select{
     }
 }
 
-@media(max-width:500px){
-    .pgp2{
-
-
+@media(max-width:425px){
+    .ter{
+        width: 200px;
+        font-size: 20px;      
+    }
+}
+@media(max-width:425px){
+    .pgp div {
+        width: 140px;
+        padding-top:10px 
+    }
+    .pgp2 div{
+        width: 140px;
+       padding-top:10px 
+    }
+    .pgp p{
+        margin-right: 150px
+    }
+    nav a {
+        margin-right: 25px;
+        font-size: 14px;
+    }
+    .teach{
+        font-size: 14px;
+    }
+    .ter{
+        width: 320px;
+        
     }
 }
