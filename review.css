@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#reviews .review{
+    display: flex;
+    margin-bottom: 20px;
+    border:  1px solid #FFC700;
+}
+
+#reviews .picture{
+    width: 30%;
+}
+
+#reviews .about{
+    width: 70%;
+}
+
+#reviews h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+#reviews p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
