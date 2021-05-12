@@ -1,0 +1,462 @@
+                                                    * {
+                                                    padding: 0;
+                                                    margin: 0;
+                                                    box-sizing: border-box;
+                                                }
+                                                
+                                                .teach {
+                                                    display: inline-block;
+                                                    color: #000000;
+                                                    font-style: normal;
+                                                    font-weight: normal;
+                                                    font-size: 24px;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                body {
+                                                    font-family: 'Inter', sans-serif;
+                                                    ;
+                                                }
+                                                
+                                                nav {
+                                                    display: inline-block;
+                                                }
+                                                
+                                                nav a {
+                                                    color: #FFC700;
+                                                    text-decoration: none;
+                                                    margin-right: 45px;
+                                                    font-weight: normal;
+                                                    font-size: 24px;
+                                                }
+                                                
+                                                .taught {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                }
+                                                
+                                                h1 {
+                                                    font-style: normal;
+                                                    font-weight: 600;
+                                                    font-size: 64px;
+                                                    line-height: 77px;
+                                                    text-align: center;
+                                                    color: #000000;
+                                                }
+                                                
+                                                .container {
+                                                    max-width: 1300px;
+                                                    margin: auto;
+                                                }
+                                                
+                                                .sett-pgp {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                }
+                                                
+                                                .pgp div {
+                                                    margin-top: 50px;
+                                                    height: 15px;
+                                                    padding-top: 6px;
+                                                    width: 290px;
+                                                    background-color: #FFC700;
+                                                }
+                                                
+                                                footer {
+                                                    background: rgba(255, 199, 0, 0.4);
+                                                    border: 1px solid #000000;
+                                                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                                }
+                                                
+                                                .firma {
+                                                    padding-top: 62px;
+                                                }
+                                                
+                                                #down a {
+                                                    font-style: normal;
+                                                    font-weight: normal;
+                                                    font-size: 24px;
+                                                    color: black;
+                                                }
+                                                
+                                                .firma {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                }
+                                                
+                                                .tech {
+                                                    background: #454545;
+                                                    width: 310px;
+                                                    height: 50px;
+                                                    text-decoration: none;
+                                                    color: #FFFFFF;
+                                                    font-weight: 300;
+                                                    font-size: 18px;
+                                                    padding: 14px 86px;
+                                                    margin-top: 54px;
+                                                    margin-bottom: 113px;
+                                                }
+                                                
+                                                #cheater {
+                                                    display: flex;
+                                                    justify-content: flex-end;
+                                                }
+                                                
+                                                #down a {
+                                                    font-style: normal;
+                                                    font-weight: normal;
+                                                    font-size: 24px;
+                                                    color: black;
+                                                }
+                                                
+                                                .pgp2 div {
+                                                    margin-top: 50px;
+                                                    height: 15px;
+                                                    padding-top: 6px;
+                                                    width: 290px;
+                                                    background-color: #FFC700;
+                                                }
+                                                
+                                                .pgp p {
+                                                    font-size: 29px;
+                                                    margin-right: 342px;
+                                                }
+                                                
+                                                .pgp2 p {
+                                                    font-size: 29px;
+                                                }
+                                                
+                                                .text1 {
+                                                    padding-left: 36px;
+                                                    width: 640px;
+                                                    height: 85px;
+                                                    justify-content: center;
+                                                    font-size: 35px;
+                                                }
+                                                
+                                                .level-und {
+                                                    text-align: center;
+                                                    margin-top: 51px;
+                                                }
+                                                
+                                                .but1 {
+                                                    padding-top: 213px;
+                                                    width: 310px;
+                                                    height: 303px;
+                                                    background-image: url(images/pass.svg);
+                                                    background-repeat: no-repeat;
+                                                    background-position-x: center;
+                                                    background-position-y: center;
+                                                    background-size: 109px;
+                                                    font-size: 24px;
+                                                }
+                                                
+                                                .but2 {
+                                                    width: 310px;
+                                                    height: 303px;
+                                                    background-image: url(images/docum.svg);
+                                                    background-repeat: no-repeat;
+                                                    background-position-x: center;
+                                                    background-position-y: center;
+                                                    background-size: 159px;
+                                                    font-size: 24px;
+                                                    padding-top: 213px;
+                                                }
+                                                
+                                                .sett-but {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    padding-top: 25px;
+                                                }
+                                                
+                                                .pass {
+                                                    margin-right: 20px;
+                                                }
+                                                
+                                                .become-rep {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    padding-top: 25px;
+                                                }
+                                                
+                                                .rep {
+                                                    width: 640px;
+                                                    height: 90px;
+                                                    background-color: #FFC700;
+                                                    color: white;
+                                                    font-size: 35px;
+                                                    border: none;
+                                                }
+                                                
+                                                @media(max-width: 1300px) {
+                                                    .container {
+                                                        max-width: 900%;
+                                                    }
+                                                    .teach {
+                                                        margin-right: 40%;
+                                                    }
+                                                }
+                                                
+                                                @media(max-width: 1064px) {
+                                                    .teach {
+                                                        margin-right: 20%;
+                                                        font-size: 20px;
+                                                    }
+                                                }
+                                                
+                                                @media(max-width: 1064px) {
+                                                    .nav a {
+                                                        font-size: 10px;
+                                                    }
+                                                }
+                                                
+                                                @media(max-width: 836px) {
+                                                    .teach {
+                                                        margin-right: 5%;
+                                                    }
+                                                }
+                                                
+                                                @media(max-width: 1024px) {
+                                                    nav a {
+                                                        margin-right: 20px;
+                                                    }
+                                                }
+                                                
+                                                @media(max-width: 1157px) {
+                                                    h1 {
+                                                        font-size: 50px;
+                                                    }
+                                                    .pgp p {
+                                                        font-size: 20px;
+                                                    }
+                                                    .pgp2 p {
+                                                        font-size: 20px;
+                                                    }
+                                                    nav a {
+                                                        margin-right: 40px;
+                                                    }
+                                                }
+                                                
+                                                @media(max-width: 1009px) {
+                                                    h1 {
+                                                        font-size: 40px;
+                                                        line-height: 60px;
+                                                    }
+                                                }
+                                                
+                                                @media(max-width: 903px) {
+                                                    h1 {
+                                                        font-size: 30px;
+                                                        line-height: 50px;
+                                                    }
+                                                    .pgp div {
+                                                        height: 10px
+                                                    }
+                                                    .pgp2 div {
+                                                        height: 10px
+                                                    }
+                                                    .text1 {
+                                                        width: 580px;
+                                                    }
+                                                    .but1 {
+                                                        width: 280px;
+                                                        height: 263px;
+                                                        font-size: 19px;
+                                                        background-size: 99px;
+                                                        background-position-x: center;
+                                                        background-position-y: center;
+                                                    }
+                                                    .but2 {
+                                                        width: 280px;
+                                                        height: 263px;
+                                                        font-size: 19px;
+                                                        background-size: 139px;
+                                                        background-position-x: center;
+                                                        background-position-y: center;
+                                                    }
+                                                    .rep {
+                                                        width: 580px;
+                                                        height: 60px;
+                                                        font-size: 30px;
+                                                    }
+                                                    @media(max-width: 797px) {
+                                                        h1 {
+                                                            font-size: 24px;
+                                                            line-height: 40px;
+                                                        }
+                                                    }
+                                                    @media(max-width: 700px) {
+                                                        .pgp p {
+                                                            margin-right: 300px;
+                                                        }
+                                                        .pgp div {
+                                                            width: 250px;
+                                                        }
+                                                        .pgp2 div {
+                                                            width: 250px;
+                                                        }
+                                                        .text1 {
+                                                            width: 520px;
+                                                            font-size: 30px;
+                                                        }
+                                                        .but1 {
+                                                            padding-top: 163px;
+                                                            width: 250px;
+                                                            height: 223px;
+                                                            font-size: 18px;
+                                                            background-size: 79px;
+                                                            background-position-x: center;
+                                                            background-position-y: center;
+                                                        }
+                                                        .but2 {
+                                                            padding-top: 163px;
+                                                            width: 250px;
+                                                            height: 223px;
+                                                            background-size: 109px;
+                                                            font-size: 18px;
+                                                        }
+                                                        .rep {
+                                                            width: 520px;
+                                                            height: 40px;
+                                                            font-size: 25px;
+                                                        }
+                                                        @media(max-width: 655px) {
+                                                            .pgp p {
+                                                                margin-right: 250px;
+                                                            }
+                                                            .pgp div {
+                                                                width: 200px;
+                                                            }
+                                                            .pgp2 div {
+                                                                width: 200px;
+                                                            }
+                                                            .text1 {
+                                                                width: 465px;
+                                                                font-size: 25px;
+                                                            }
+                                                            .but1 {
+                                                                padding-top: 123px;
+                                                                width: 222px;
+                                                                height: 185px;
+                                                                font-size: 15px;
+                                                                background-size: 59px;
+                                                            }
+                                                            .but2 {
+                                                                padding-top: 123px;
+                                                                width: 222px;
+                                                                height: 185px;
+                                                                font-size: 15px;
+                                                                background-size: 69px;
+                                                            }
+                                                            .rep {
+                                                                width: 465px;
+                                                                height: 40px;
+                                                                font-size: 20px;
+                                                            }
+                                                        }
+                                                        @media(max-width: 525px) {
+                                                            .container {
+                                                                margin: auto;
+                                                            }
+                                                        }
+                                                        @media(max-width: 425px) {
+                                                            .pgp p {
+                                                                margin-right: 150px;
+                                                            }
+                                                            .pgp div {
+                                                                width: 150px;
+                                                            }
+                                                            .pgp2 div {
+                                                                width: 150px;
+                                                            }
+                                                            .text1 {
+                                                                width: 325px;
+                                                                font-size: 18px;
+                                                            }
+                                                            .but1 {
+                                                                padding-top: 83px;
+                                                                width: 152px;
+                                                                height: 115px;
+                                                                font-size: 13px;
+                                                                background-size: 39px;
+                                                            }
+                                                            .but2 {
+                                                                padding-top: 83px;
+                                                                width: 152px;
+                                                                height: 115px;
+                                                                font-size: 13px;
+                                                                background-size: 49px;
+                                                            }
+                                                            .rep {
+                                                                width: 325px;
+                                                                height: 40px;
+                                                                font-size: 15px;
+                                                            }
+                                                            h1 {
+                                                                font-size: 30px;
+                                                            }
+                                                            nav a {
+                                                                font-weight: normal;
+                                                                font-size: 14px;
+                                                                margin-right: 20px;
+                                                            }
+                                                            .teach {
+                                                                font-size: 14px;
+                                                            }
+                                                        }
+                                                    }
+                                                    @media (max-width: 375px) {
+                                                        nav a {
+                                                            margin-right: 10px;
+                                                        }
+                                                    }
+                                                    @media(max-width: 320px) {
+                                                        .pgp p {
+                                                            font-size: 14px;
+                                                            margin-right: 100px;
+                                                        }
+                                                        .pgp2 p {
+                                                            font-size: 14px;
+                                                        }
+                                                        .pgp div {
+                                                            width: 100px;
+                                                        }
+                                                        .pgp2 div {
+                                                            width: 100px;
+                                                        }
+                                                        .text1 {
+                                                            width: 225px;
+                                                            font-size: 14px;
+                                                            padding-left: 12px;
+                                                        }
+                                                        .but1 {
+                                                            padding-top: 83px;
+                                                            width: 102px;
+                                                            height: 115px;
+                                                            font-size: 13px;
+                                                            background-size: 32px;
+                                                        }
+                                                        .but2 {
+                                                            padding-top: 83px;
+                                                            width: 102px;
+                                                            height: 115px;
+                                                            font-size: 13px;
+                                                            background-size: 42px;
+                                                        }
+                                                        .rep {
+                                                            width: 225px;
+                                                            height: 40px;
+                                                            font-size: 15px;
+                                                        }
+                                                        h1 {
+                                                            font-size: 25px;
+                                                        }
+                                                        nav a {
+                                                            font-weight: normal;
+                                                            font-size: 12px;
+                                                            margin-right: 5px;
+                                                        }
+                                                        .teach {
+                                                            font-size: 12px;
+                                                        }
+                                                    }
