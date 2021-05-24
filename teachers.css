@@ -47,6 +47,7 @@ header{
 #bodddy button{
     border-radius: 5px;
     border-color: #FFC700;
+    border: none;
 }
 
 #teachers{
