@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+.teach{
+    display: inline-block;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header{
+    margin-top:55px ;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav a{
+    color: #FFC700;
+    text-decoration: none;
+    margin-right:45px ;
+    font-weight: normal;
+    font-size: 24px;
+}
+
 .container{
     max-width: 1300px;
     margin: auto;
