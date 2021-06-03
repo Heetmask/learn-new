@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.teach {
+    display: inline-block;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-decoration: none;
+}
 
 .container{
     max-width: 1300px;
@@ -25,7 +33,7 @@
    display: inline-block;
 }
 
-#comments nav a {
+nav a {
     color: #FFC700;
     text-decoration: none;
     margin-right: 45px;
@@ -151,7 +159,7 @@ footer {
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
-        color: black;
+        color: black; }
 
 
 @media(max-width:1240px){
