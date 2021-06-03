@@ -251,6 +251,13 @@
    .pgp2 p{
         font-size: 15px;
     }
+  
+    .teach{
+        font-size: 12px;
+    }
+    nav a{ 
+        font-size: 12px;
+    }
 }
                 
                 @media(max-width: 903px) {
