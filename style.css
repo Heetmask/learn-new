@@ -11,7 +11,7 @@ body{
 .teach{
     display: inline-block;
     color: #000000;
-    font-style: normal;
+    font-style:l normal;
     font-weight: normal;
     font-size: 24px;
     text-decoration: none;
@@ -365,15 +365,22 @@ img{
          font-size: 25px;
      }
 
-     .teach{
-         font-size: 20px;
-     }
+     
 
      h1{
-         font-size: 45px;
+         font-size: 40px;
      }
      #teachers .teacher{
         width:45%;
+    }
+    nav a{
+        font-size: 18px;
+    }
+    .teach{
+        font-size: 18px;
+    }
+    #down a{
+        font-size: 18px;
     }
 }
 
@@ -382,47 +389,119 @@ img{
         width:98%;
     }
 
-    .teach,.taught{
+    .taught{
         display: block;
     }
 
     .comment{
-        width:98%;
+        width:45%;
+    }
+    .name{
+        font-size: 23px;
     }
 
     .predmet a{
         width: 45%;
     }
+    #teacher .found{
+        width: 150px;
+        font-size: 15px;
+       
+    }
+    #teacher .become{
+        width: 150px;
+        
+        font-size: 15px;
+    }
     
     nav a{
-        margin-right:5px;
-        font-size:20px ;
+        
+        font-size:12px ;
+        margin-right: 5px;
     }
 
     #down a{
-        font-size: 15px;
+        font-size: 12px;
     }
 
-    .firma .teach{
+    .firma {
         font-size: 15px;
+    }
+    h1{
+font-size: 30px;
     }
 
     #teacher{
         padding-bottom:50px;
     }
+    .teach{
+        margin-right: 50px;
+        font-size: 12px;
+    }
+    
 }
 
 
 @media (max-width:375px){
     #teachers .teacher{
-        width:95%;
+        width:45%;
     }
 
     h1{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .predmet a{
-        width: 98%;
+        width: 45%;
     }
+    .teach{
+        font-size: 10px;
+    }
+    nav a{
+        font-size: 10px;
+    }
+    #down a{
+        font-size: 10px;
+    }
+    .tech{
+        width: 180px;
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+}
+@media(max-width: 320px){
+    nav a{
+        margin-right: 4px;
+        font-size: 8px;
+    }
+    .teach{font-size: 9px;
+    }
+    #down a{
+        font-size: 8px;
+        margin-right: 4px;
+    }
+    #teacher .found{
+        width: 130px;
+        font-size: 13px;
+       
+    }
+    #teacher .become{
+        width: 130px;
+        
+        font-size: 13px;
+    }
+    .tt{
+        font-size: 14px;
+    }
+    .predmet a{
+        width: 48%;
+    }
+    .comment{
+        width:48%;
+    }
+    .name{
+        font-size: 20px;
+    }
+  
 }
