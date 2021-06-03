@@ -258,6 +258,14 @@
     nav a{ 
         font-size: 12px;
     }
+   nav a{ 
+        font-size: 12px;
+        margin-right: 3px;
+    }
+    #down a{
+        font-size: 12px;
+        margin-right: 3px;
+    }
 }
                 
                 @media(max-width: 903px) {
