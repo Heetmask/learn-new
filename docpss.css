@@ -188,345 +188,105 @@
                     border: none;
                 }
                 
-                @media(max-width: 1300px) {
-                    .container {
-                        max-width: 900%;
-                    }
-                    .teach {
-                        margin-right: 40%;
-                    }
-                }
-                
-                @media(max-width: 1064px) {
-                    .teach {
-                        margin-right: 20%;
-                        font-size: 20px;
-                    }
-                }
-                
-                @media(max-width: 1064px) {
-                    .nav a {
-                        font-size: 10px;
-                    }
-                }
-                
-                @media(max-width: 836px) {
-                    .teach {
-                        margin-right: 5%;
-                    }
-                }
-                
-                @media(max-width: 1024px) {
-                    nav a {
-                        margin-right: 20px;
-                    }
-                }
-                
-                @media(max-width: 1157px) {
-                    h1 {
-                        font-size: 50px;
-                    }
-                    .pgp p {
-                        font-size: 20px;
-                    }
-                    .pgp2 p {
-                        font-size: 20px;
-                    }
-                    nav a {
-                        margin-right: 40px;
-                    }
-                }
-                
-                @media(max-width: 1009px) {
-                    h1 {
-                        font-size: 40px;
-                        line-height: 60px;
-                    }
-                }
-@media(max-width:375px){
+                @media(max-width: 768px){
     .teach{
-        font-size: 12px;
+        font-size: 18px;
+    }
+    nav a{
+        font-size: 18px;
+    }
+}
+@media(max-width: 425px){
+    .teach{
+        font-size:12px;
     }
     nav a{
         font-size: 12px;
-        margin-right: 5PX;
+        margin-right: 10px;
     }
     h1{
-        font-size: 20px;
-        
+        font-size: 25px;
+    }
+    .pgp div{
+        width: 160px;
+    }
+    .pgp2 div{
+        width: 160px;
     }
     .pgp p{
-        margin-right: 140px;
+        margin-right:140px;
+        font-size: 12px;
     }
-                
-                @media(max-width: 903px) {
-                    h1 {
-                        font-size: 30px;
-                        line-height: 50px;
-                    }
-                    .pgp div {
-                        height: 10px
-                    }
-                    .pgp2 div {
-                        height: 10px
-                    }
-                    .text1 {
-                        width: 580px;
-                    }
-                    .but1 {
-                        width: 280px;
-                        height: 263px;
-                        font-size: 19px;
-                        background-size: 99px;
-                        background-position-x: center;
-                        background-position-y: center;
-                    }
-                    .but2 {
-                        width: 280px;
-                        height: 263px;
-                        font-size: 19px;
-                        background-size: 139px;
-                        background-position-x: center;
-                        background-position-y: center;
-                    }
-                    .rep {
-                        width: 580px;
-                        height: 60px;
-                        font-size: 30px;
-                    }
-                    @media(max-width: 797px) {
-                        h1 {
-                            font-size: 24px;
-                            line-height: 40px;
-                        }
-                    }
-                    @media(max-width: 700px) {
-                        .pgp p {
-                            margin-right: 300px;
-                        }
-                        .pgp div {
-                            width: 250px;
-                        }
-                        .pgp2 div {
-                            width: 250px;
-                        }
-                        .text1 {
-                            width: 520px;
-                            font-size: 30px;
-                        }
-                        .but1 {
-                            padding-top: 163px;
-                            width: 250px;
-                            height: 223px;
-                            font-size: 18px;
-                            background-size: 79px;
-                            background-position-x: center;
-                            background-position-y: center;
-                        }
-                        .but2 {
-                            padding-top: 163px;
-                            width: 250px;
-                            height: 223px;
-                            background-size: 109px;
-                            font-size: 18px;
-                        }
-                        .rep {
-                            width: 520px;
-                            height: 40px;
-                            font-size: 25px;
-                        }
-                        @media(max-width: 655px) {
-                            .pgp p {
-                                margin-right: 250px;
-                            }
-                            .pgp div {
-                                width: 200px;
-                            }
-                            .pgp2 div {
-                                width: 200px;
-                            }
-                            .text1 {
-                                width: 465px;
-                                font-size: 25px;
-                            }
-                            .but1 {
-                                padding-top: 123px;
-                                width: 222px;
-                                height: 185px;
-                                font-size: 15px;
-                                background-size: 59px;
-                            }
-                            .but2 {
-                                padding-top: 123px;
-                                width: 222px;
-                                height: 185px;
-                                font-size: 15px;
-                                background-size: 69px;
-                            }
-                            .rep {
-                                width: 465px;
-                                height: 40px;
-                                font-size: 20px;
-                            }
-                        }
-                        @media(max-width: 525px) {
-                            .container {
-                                margin: auto;
-                            }
-                        }
-                        @media(max-width: 425px) {
-                            .pgp p {
-                                margin-right: 150px;
-                            }
-                            .pgp div {
-                                width: 150px;
-                            }
-                            .pgp2 div {
-                                width: 150px;
-                            }
-                            .text1 {
-                                width: 325px;
-                                font-size: 18px;
-                            }
-                            .but1 {
-                                padding-top: 83px;
-                                width: 152px;
-                                height: 115px;
-                                font-size: 13px;
-                                background-size: 39px;
-                            }
-                            .but2 {
-                                padding-top: 83px;
-                                width: 152px;
-                                height: 115px;
-                                font-size: 13px;
-                                background-size: 49px;
-                            }
-                            .rep {
-                                width: 325px;
-                                height: 40px;
-                                font-size: 15px;
-                            }
-                            h1 {
-                                font-size: 30px;
-                            }
-                            nav a {
-                                font-weight: normal;
-                                font-size: 14px;
-                                margin-right: 20px;
-                            }
-                            .teach {
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                    @media (max-width: 375px) {
-                        nav a {
-                            margin-right: 5px;
-                        }
-                    }
-                    @media(max-width: 320px) {
-                        .pgp p {
-                            font-size: 14px;
-                            margin-right: 100px;
-                        }
-                        .pgp2 p {
-                            font-size: 14px;
-                        }
-                        .pgp div {
-                            width: 100px;
-                        }
-                        .pgp2 div {
-                            width: 100px;
-                        }
-                        .text1 {
-                            width: 225px;
-                            font-size: 14px;
-                            padding-left: 12px;
-                        }
-                        .but1 {
-                            padding-top: 83px;
-                            width: 102px;
-                            height: 115px;
-                            font-size: 13px;
-                            background-size: 32px;
-                        }
-                        .but2 {
-                            padding-top: 83px;
-                            width: 102px;
-                            height: 115px;
-                            font-size: 13px;
-                            background-size: 42px;
-                        }
-                        .rep {
-                            width: 225px;
-                            height: 40px;
-                            font-size: 15px;
-                        }
-                        h1 {
-                            font-size: 25px;
-                        }
-                        nav a {
-                            font-weight: normal;
-                            font-size: 12px;
-                            margin-right: 5px;
-                        }
-                        .teach {
-                            font-size: 12px;
-                        }
-                    }
-                    @media(max-width: 768px) {
-                        #down a {
-                            font-size: 20px;
-                        }
-                    }
-                    @media(max-width: 425px) {
-                        #down a {
-                            font-size: 15px;
-                            margin-right: 5px;
-                        }
-                        .teach {
-                            margin-right: 10px;
-                            font-size: 15px;
-                        }
-                        .tech {
-                            padding-right: 55px;
-                            padding-left: 55px;
-                            font-size: 13px;
-                        }
-                    }
-                    @media(max-width: 375px) {
-                        #down a {
-                            font-size: 12px;
-                            margin-right: 5px;
-                        }
-                        .teach {
-                            margin-right: 12px;
-                            font-size: 15px;
-                        }
-                        nav a {
-                            font-size: 15px;
-                        }
-                        .tech {
-                            padding-right: 30px;
-                            padding-left: 30px;
-                            font-size: 10px;
-                        }
-                    }
-                    @media(max-width: 320px) {
-                        #down a {
-                            font-size: 10px;
-                            margin-right: 5px;
-                        }
-                        .teach {
-                            margin-right: 10px;
-                            font-size: 10px;
-                        }
-                        nav a {
-                            font-size: 10px;
-                        }
-                        .tech {
-                            font-size: 10px;
-                            font-weight: 200;
-                        }
-                    }
+    .pgp2 p{
+        font-size: 12px;
+    }
+    .text1{
+        font-size: 20px;
+        width: 300px;
+    }
+    .but1{
+        width: 140px;
+        height: 200px;
+        background-size:69px;
+        font-size: 18px;
+        padding-top:153px;
+    }
+    .but2{
+        width: 140px;
+        height: 200px;
+        background-size: 109px;
+        font-size: 18px;
+         padding-top:153px;
+    }
+    .rep{
+        width:300px;
+        font-size: 20px;
+    }
+    #down a{
+        font-size: 12px;
+    }
+    .tech{
+        width:200px;
+        padding-right: 45px;
+        padding-left: 55px;
+        font-size: 12px;
+    }
+}
+@media(max-width: 320px){
+    .teach{
+        font-size: 8px;
+        padding-top: 5px;
+    }
+    nav a{
+        font-size: 8px;
+        
+    }
+    .pgp div{
+        width: 100px
+    }
+    .pgp2 div{
+        width: 100px
+    }
+    .text1{
+        font-size: 13px;
+        width: 200px;
+    }
+    .but1{
+        width: 90px;
+        height: 140px;
+        background-size:49px;
+        font-size: 13px;
+        padding-top:103px;
+    }
+    .but2{
+        width: 90px;
+        height: 140px;
+        background-size: 69px;
+        font-size: 13px;
+         padding-top:103px;
+    }
+    .rep{
+        width:200px;
+        font-size: 15px;
+    }
+}
