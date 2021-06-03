@@ -246,6 +246,10 @@
 @media(max-width: 375px){
     .pgp p{
         margin-right: 130px;
+      font-size: 15px;
+    }
+   .pgp2 p{
+        font-size: 15px;
     }
 }
                 
