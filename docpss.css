@@ -202,7 +202,7 @@
     }
     nav a{
         font-size: 12px;
-        margin-right: 10px;
+        margin-right: 6px;
     }
     h1{
         font-size: 25px;
@@ -244,6 +244,7 @@
     }
     #down a{
         font-size: 12px;
+      margin-right: 6px;
     }
     .tech{
         width:200px;
