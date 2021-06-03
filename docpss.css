@@ -243,30 +243,21 @@
                         line-height: 60px;
                     }
                 }
-@media(max-width: 375px){
-    .pgp p{
-        margin-right: 130px;
-      font-size: 15px;
-    }
-   .pgp2 p{
-        font-size: 15px;
-    }
-  
+@media(max-width:375px){
     .teach{
         font-size: 12px;
     }
-    nav a{ 
+    nav a{
         font-size: 12px;
+        margin-right: 5PX;
     }
-   nav a{ 
-        font-size: 12px;
-        margin-right: 3px;
+    h1{
+        font-size: 20px;
+        
     }
-    #down a{
-        font-size: 12px;
-        margin-right: 3px;
+    .pgp p{
+        margin-right: 140px;
     }
-}
                 
                 @media(max-width: 903px) {
                     h1 {
