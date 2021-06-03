@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+header{
+    max-width: 1500px;
+}
+
+.teach {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    color: #FFC700;
+    text-decoration: none;
+    margin-right: 45px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+h1{
+    
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+color: #000000;
+padding-bottom:30px; 
+}
+
+.seet-pgp{
+    display: flex;
+    justify-content: center;
+}
+.pgp p{
+    margin-right:400px;
+}
+
+.pgp div{
+
+    padding-top:15px;
+    width: 390px;
+    background-color: #FFC700; 
+}
+
+.pgp2 div{
+
+    padding-top:15px;
+    width: 390px;
+    background-color: #DFDFDF; 
+}
+
+.pop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input{
+    width: 640px;
+    padding-top:23px;
+    padding-bottom: 23px;
+    margin-top: 20px; 
+    font-size:  35px;
+    
+}
+
+select{
+    width: 640px;
+    margin-top: 20px;
+    padding-right: 120px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    color: #666666;
+    font-size:  35px;
+}
+
+.ter{
+    color: #ffffff;
+    background-color: #FFC700;
+    margin-top:25px;
+    width: 640px;
+    height: 90px;
+    font-size:  35px;
+    border: none;
+}
+
+.put{
+    display: flex;
+}
+
+
+footer{
+    margin-top: 60px;
+}
+
+.taught{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+nav a{
+    color: #FFC700;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+footer{
+    background: rgba(255, 199, 0, 0.4);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.firma{
+    display: flex;
+    justify-content: space-between;
+}
+
+#down a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+}
+
+.firma{
+    padding-top: 62px;
+}
+
+#cheater{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tech{
+    background: #454545;
+    width: 310px;
+    height: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 14px 86px;
+    margin-top: 54px;
+    margin-bottom: 113px;
+}
+
+@media(max-width:1300px){
+    .container{
+        max-width: 90%;
+    }
+    .teach{
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:837px){
+    .teach{
+        margin-right: 30%;
+    }
+}
+
+@media(max-width: 1157px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 1009px) {
+    h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media(max-width: 903px) {
+    h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
+@media(max-width: 797px) {
+    h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:750px){
+    input{
+        width: 320px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:750px){
+    select{
+        width: 320px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:425px){
+    .ter{
+        width: 200px;
+        font-size: 20px;      
+    }
+}
+@media(max-width:425px){
+    .pgp div {
+        width: 140px;
+        padding-top:10px 
+    }
+    .pgp2 div{
+        width: 140px;
+       padding-top:10px 
+    }
+    .pgp p{
+        margin-right: 150px
+    }
+    nav a {
+        margin-right: 25px;
+        font-size: 14px;
+    }
+    .teach{
+        font-size: 14px;
+    }
+    .ter{
+        width: 320px;
+        
+    }
+}
+
+@media(max-width:375px){
+    #down a{
+        font-size: 18px;
+    }
+}
