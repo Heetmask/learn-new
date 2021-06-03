@@ -167,95 +167,133 @@ footer{
     margin-bottom: 113px;
 }
 
-@media(max-width:1300px){
-    .container{
-        max-width: 90%;
-    }
+@media(max-width: 768px){
     .teach{
-        margin-right: 20px;
+        font-size:18px;
     }
-}
-
-@media(max-width:837px){
-    .teach{
-        margin-right: 30%;
+    nav a{
+        font-size:18px;
+        margin-right:15px
     }
-}
-
-@media(max-width: 1157px) {
-    h1 {
-        font-size: 50px;
+    h1{
+        font-size: 50px
     }
-}
-
-@media(max-width: 1009px) {
-    h1 {
-        font-size: 40px;
-        line-height: 60px;
-    }
-}
-
-@media(max-width: 903px) {
-    h1 {
-        font-size: 30px;
-        line-height: 50px;
-    }
-}
-
-@media(max-width: 797px) {
-    h1 {
-        font-size: 20px;
-        line-height: 40px;
-    }
-}
-
-@media(max-width:750px){
-    input{
-        width: 320px;
-        font-size: 20px;
-    }
-}
-
-@media(max-width:750px){
-    select{
-        width: 320px;
-        font-size: 20px;
-    }
-}
-
-@media(max-width:425px){
-    .ter{
+    .pgp div{
         width: 200px;
-        font-size: 20px;      
-    }
-}
-@media(max-width:425px){
-    .pgp div {
-        width: 140px;
-        padding-top:10px 
     }
     .pgp2 div{
-        width: 140px;
-       padding-top:10px 
+        width: 200px
+    }
+    input{
+        width: 500px;
+    }
+    select{
+        width: 500px;
+    }
+    .put button{
+        width: 500px
+    }
+}
+@media(max-width: 425px){
+    .teach{
+        font-size: 13px
+    }
+    nav a{
+        font-size: 13px;
+        margin-right: 13px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .pgp div{
+        
+        width: 150px;
+    }
+    .pgp2 div{
+       
+        width:150px;
     }
     .pgp p{
-        margin-right: 150px
+        margin-right: 190px;
     }
-    nav a {
-        margin-right: 25px;
-        font-size: 14px;
+    input{
+        width: 300px;
+        font-size: 20px;
     }
-    .teach{
-        font-size: 14px;
+    select{
+        width: 300px;
+        font-size: 20px;
     }
-    .ter{
-        width: 320px;
+    .put button{
+        width: 300px;
+    }
+    #down a{
+        font-size:13px;
+    }
+   .tech {
+       width:250px;
+        padding-right: 55px;
+        padding-left: 55px;
         
     }
 }
-
 @media(max-width:375px){
-    #down a{
-        font-size: 18px;
+    .teach{
+        font-size: 12px;
+    }
+    nav a{
+        font-size: 12px;
+        margin-right: 5PX;
+    }
+    h1{
+        font-size: 20px;
+        
+    }
+    .pgp p{
+        margin-right: 140px;
+    }
+     .tech {
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 10px;
+        width: 200px;
+        padding-top: 20px
+    }
+
+}
+@media(max-width: 320px){
+    .teach{
+        font-size: 10px;
+    }
+    nav a{
+        font-size: 10px;
+    }
+    .pgp div{
+        width: 100px;
+    }
+    .pgp2 div{
+        width: 100px;
+    }
+    input{
+        width: 240px;
+        font-size: 16px
+    }
+    select{
+        width: 240px;
+        font-size: 16px;
+        padding-right:1px;
+    }
+    .put button{
+        width: 240px;
+    }
+    #down a{ 
+        font-size: 10px;
+    }
+    .tech{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 10px;
+        width: 150px;
+        padding-top: 20p
     }
 }
