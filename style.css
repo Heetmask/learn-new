@@ -71,6 +71,7 @@ h1{
 
 #teacher .become{
     display: inline-block;
+    text-decoration:none;
     background: #FFFFFF;
     width: 250px;
     height: 75px;
