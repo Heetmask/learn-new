@@ -243,6 +243,11 @@
                         line-height: 60px;
                     }
                 }
+@media(max-width: 375px){
+    .pgp p{
+        margin-right: 130px;
+    }
+}
                 
                 @media(max-width: 903px) {
                     h1 {
