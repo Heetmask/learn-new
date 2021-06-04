@@ -386,23 +386,17 @@ img{
     nav a{
         font-size: 18px;
     }
-
-    #down a{
+    .teach{
         font-size: 18px;
     }
-
-    header nav{
-        display: block;
+    #down a{
+        font-size: 18px;
     }
 }
 
 @media (max-width:425px){
     #teachers .teacher{
         width:98%;
-    }
-
-    header nav{
-        margin-top: 20px;
     }
 
     .taught{
@@ -432,7 +426,7 @@ img{
     
     nav a{
         
-        font-size:16px ;
+        font-size:12px ;
         margin-right: 5px;
     }
 
@@ -450,6 +444,10 @@ font-size: 30px;
     #teacher{
         padding-bottom:50px;
     }
+    .teach{
+        margin-right: 50px;
+        font-size: 12px;
+    }
     
 }
 
@@ -466,7 +464,12 @@ font-size: 30px;
     .predmet a{
         width: 45%;
     }
-
+    .teach{
+        font-size: 10px;
+    }
+    nav a{
+        font-size: 10px;
+    }
     #down a{
         font-size: 10px;
     }
@@ -478,13 +481,12 @@ font-size: 30px;
     }
 }
 @media(max-width: 320px){
-       #teachers .teacher{
-        width:98%;
-    }
     nav a{
         margin-right: 4px;
+        font-size: 8px;
     }
-
+    .teach{font-size: 9px;
+    }
     #down a{
         font-size: 8px;
         margin-right: 4px;
