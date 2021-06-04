@@ -364,4 +364,14 @@ footer {
         font-size: 13px;
     }
 }
+@media(max-width: 320px){
+    #last-comments .teach{
+        font-size: 8px;
+        font-weight: bold;
+    }
+    #last-comments .down a{
+        font-size: 8px;
+        margin-right: 2px;
+        font-weight: bold;
+    }
 
