@@ -478,6 +478,9 @@ font-size: 30px;
     }
 }
 @media(max-width: 320px){
+       #teachers .teacher{
+        width:98%;
+    }
     nav a{
         margin-right: 4px;
     }
@@ -507,9 +510,6 @@ font-size: 30px;
     }
     .name{
         font-size: 20px;
-    }
-       #teachers .teacher{
-        width:45%;
     }
   
 }
