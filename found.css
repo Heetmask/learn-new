@@ -1,194 +1,247 @@
   
-                    * {
-                        padding: 0;
-                        margin: 0;
-                        box-sizing: border-box;
-                    }
+                   
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.teach {
+    display: inline-block;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header{
+    margin-bottom: 20px;
+}    
+
+
+h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.reg{
+    text-align: center;
+    background:#FFC700 ;
+    padding-bottom: 30px;
+}
+
+select{
+    display: block;
+    width: 640px;
+    margin-top: 20px;
+    padding-right: 120px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    color: #666666;
+    font-size:  35px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    ;
+}
+
+#predmety{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#age{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#education{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.through{
+    display: inline-block;
+    text-decoration:none;
+    background: #FFFFFF;
+    width: 640px;
+    height: 75px;
+    color: #FFC700;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+    border: 1px  #FFC700 solid;
+    margin-bottom:30px ;
+}
+
+.search{
+    display: block;
+    margin: auto;
+    text-decoration:none;
+    background:#FFFFFF ;
+    width: 640px;
+    height: 75px;
+    color: #FFC700;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+    border: 1px  #FFC700 solid;
+}
+
                     
-                    .teach {
-                        display: inline-block;
-                        color: #000000;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 24px;
-                        text-decoration: none;
-                    }
+nav {
+    display: inline-block;
+}
 
-                    header{
-                        margin-bottom: 20px;
-                    }    
-                
+nav a {
+    color: #FFC700;
+    text-decoration: none;
+    margin-right: 45px;
+    font-weight: normal;
+    font-size: 24px;
+}
 
-                    h1{
-                        font-weight: 600;
-                        font-size: 40px;
-                    }
+.taught {
+    display: flex;
+    justify-content: space-between;
+}
 
-                    p{
-                        font-size: 20px;
-                    }
+footer {
+    background: rgba(255, 199, 0, 0.4);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-                    .reg{
-                        text-align: center;
-                        background:#FFC700 ;
-                        padding-bottom: 30px;
-                    }
+.firma {
+    padding-top: 62px;
+}
 
-                    select{
-                        display: block;
-                        width: 640px;
-                        margin-top: 20px;
-                        padding-right: 120px;
-                        padding-top: 23px;
-                        padding-bottom: 23px;
-                        color: #666666;
-                        font-size:  35px;
-                    }
-                    
-                    body {
-                        font-family: 'Inter', sans-serif;
-                        ;
-                    }
+#down a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+}
 
-                    #predmety{
-                        margin: 0 auto;
-                        margin-top: 30px;
-                        margin-bottom: 30px;
-                    }
+.firma {
+    display: flex;
+    justify-content: space-between;
+}
 
-                    #age{
-                        margin: 0 auto;
-                        margin-bottom: 30px;
-                    }
+.tech {
+    background: #454545;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 14px 86px;
+    margin-top: 54px;
+    margin-bottom: 113px;
+}
 
-                    #education{
-                        margin: 0 auto;
-                        margin-bottom: 30px;
-                    }
+#cheater {
+    display: flex;
+    justify-content: flex-end;
+}
 
-                    .through{
-                        display: inline-block;
-                        text-decoration:none;
-                        background: #FFFFFF;
-                        width: 640px;
-                        height: 75px;
-                        color: #FFC700;
-                        font-weight: normal;
-                        font-size: 35px;
-                        text-align: center;
-                        padding-top: 15px;
-                        border: 1px  #FFC700 solid;
-                        margin-bottom:30px ;
-                    }
+#down a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+}
 
-                    .search{
-                        display: block;
-                        margin: auto;
-                        text-decoration:none;
-                        background:#FFFFFF ;
-                        width: 640px;
-                        height: 75px;
-                        color: #FFC700;
-                        font-weight: normal;
-                        font-size: 35px;
-                        text-align: center;
-                        padding-top: 15px;
-                        border: 1px  #FFC700 solid;
-                    }
+.container{
+    max-width: 1300px;
+    margin:auto ;
+}
 
-                                        
-                    nav {
-                        display: inline-block;
-                    }
-                    
-                    nav a {
-                        color: #FFC700;
-                        text-decoration: none;
-                        margin-right: 45px;
-                        font-weight: normal;
-                        font-size: 24px;
-                    }
-                    
-                    .taught {
-                        display: flex;
-                        justify-content: space-between;
-                    }
 
-                    footer {
-                        background: rgba(255, 199, 0, 0.4);
-                        border: 1px solid #000000;
-                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                    }
-                    
-                    .firma {
-                        padding-top: 62px;
-                    }
-                    
-                    #down a {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 24px;
-                        color: black;
-                    }
-                    
-                    .firma {
-                        display: flex;
-                        justify-content: space-between;
-                    }
-                    
-                    .tech {
-                        background: #454545;
-                        display: inline-block;
-                        text-decoration: none;
-                        color: #FFFFFF;
-                        font-weight: 300;
-                        font-size: 18px;
-                        padding: 14px 86px;
-                        margin-top: 54px;
-                        margin-bottom: 113px;
-                    }
-                    
-                    #cheater {
-                        display: flex;
-                        justify-content: flex-end;
-                    }
-                    
-                    #down a {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 24px;
-                        color: black;
-                    }
+@media(max-width: 768px){
+    .teach{
+        font-size: 18px;
+    }
+    nav a{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    select{
+        width: 580px;
+    }
+    .through{
+        width: 580px;
+    }
+    .search{
+        width: 580px;
+    }
+}
+@media(max-width: 425px){
+    .teach{
+        font-size:10px;
+    }
+    nav a{
+        font-size: 10px;
+        margin-right: 6px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 13px;
+    }
+    select{
+        width: 330px;
+        font-size: 23px;
+    }
+    .through{
+        width: 330px;
+        font-size: 23px;
+    }
+    .search{
+        width: 330px;
+        font-size: 23px;
+    }
+    #down a{
+        font-size: 10px;
+        margin-right: 6px;
+    }
+    .tech{
+        width:200px;
+        padding-right: 45px;
+        padding-left: 55px;
+        font-size: 12px;
+    }
+}
+@media(max-width: 375px){
+    h1{
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+    }
+    select{
+        width: 230px;
+        font-size: 10px;
+    }
+    .through{
+        width: 230px;
+        font-size: 10px;
+    }
+    .search{
+        width: 230px;
+        font-size: 10px;
+    }
+}
 
-                    .container{
-                        max-width: 1300px;
-                        margin:auto ;
-                    }
-
-                    @media(max-width: 768px){
-                        .teach{
-                            font-size: 18px;
-                        }
-                        nav a{
-                            font-size: 18px;
-                        }
-                    }
-                    @media(max-width: 425px){
-                        .teach{
-                            font-size:10px;
-                        }
-                        nav a{
-                            font-size: 10px;
-                            margin-right: 6px;
-                        }
-                        #down a{
-                            font-size: 10px;
-                          margin-right: 6px;
-                        }
-                        .tech{
-                            width:200px;
-                            padding-right: 45px;
-                            padding-left: 55px;
-                            font-size: 12px;
-                        }
-                    }
