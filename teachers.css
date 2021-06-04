@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+header{
+    padding-top: 55px;
+}
+header .teach{
+    font-size: 24px;
+    color:#000000;
+    text-decoration: none;
+}
 .container{
     max-width: 1300px;
     margin: auto;
@@ -103,20 +111,21 @@ img{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 22px;
-    margin-left: 5px;
-    margin-bottom: 3px;
+    margin-left: 8px;
+    margin-bottom: 8px;
 }
 
 #teachers h3{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 8px;
     font-size: 22px;
 }
 
-#cheaters .star{
+#teachers .star{
     margin-bottom: 3px;
+    margin-left: 8px;
 }
 
 #teachers .pavel, #teachers .aleksandr, #teachers .maria{
@@ -155,8 +164,6 @@ img{
 
 footer{
     background: rgba(255, 199, 0, 0.4);
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
@@ -183,7 +190,9 @@ footer{
     font-size: 25px;
     text-decoration: none;
 }
-
+#help {
+    text-align: right;
+}
 #help .tech{
     background: #454545;
     width: 310px;
@@ -194,7 +203,8 @@ footer{
     font-size: 18px;
     padding: 14px 86px;
     margin-top: 54px;
-    margin-bottom: 113px;
+    margin-bottom: 60px;
+    display: inline-block;
 }
 
 @media(max-width:1240px){
