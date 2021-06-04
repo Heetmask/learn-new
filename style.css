@@ -69,6 +69,11 @@ h1{
     margin-right:40px ;
 }
 
+#teacher .found:hover, .predmet a:hover{
+    background: #e6a500;
+}
+
+
 #teacher .become{
     display: inline-block;
     text-decoration:none;
@@ -82,6 +87,10 @@ h1{
     padding-top: 26px;
     margin-top: 51px;
     border: 1px  #FFC700 solid;
+}
+#teacher .become{
+    color: #e6a500;
+    border: 1px  #e6a500 solid;
 }
 
 .predmetbg{
@@ -334,20 +343,21 @@ img{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 22px;
-    margin-left: 5px;
-    margin-bottom: 3px;
+    margin-left: 8px;
+    margin-bottom: 8px;
 }
 
 #teachers h3{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 8px;
+    margin-left: 8px;
     font-size: 22px;
 }
 
-#cheaters .star{
+#teachers .star{
     margin-bottom: 3px;
+    margin-left: 8px;
 }
 
 @media ( max-width:1024px){
@@ -376,17 +386,23 @@ img{
     nav a{
         font-size: 18px;
     }
-    .teach{
-        font-size: 18px;
-    }
+
     #down a{
         font-size: 18px;
+    }
+
+    header nav{
+        display: block;
     }
 }
 
 @media (max-width:425px){
     #teachers .teacher{
         width:98%;
+    }
+
+    header nav{
+        margin-top: 20px;
     }
 
     .taught{
@@ -416,7 +432,7 @@ img{
     
     nav a{
         
-        font-size:12px ;
+        font-size:16px ;
         margin-right: 5px;
     }
 
@@ -434,10 +450,6 @@ font-size: 30px;
     #teacher{
         padding-bottom:50px;
     }
-    .teach{
-        margin-right: 50px;
-        font-size: 12px;
-    }
     
 }
 
@@ -454,12 +466,7 @@ font-size: 30px;
     .predmet a{
         width: 45%;
     }
-    .teach{
-        font-size: 10px;
-    }
-    nav a{
-        font-size: 10px;
-    }
+
     #down a{
         font-size: 10px;
     }
@@ -473,10 +480,8 @@ font-size: 30px;
 @media(max-width: 320px){
     nav a{
         margin-right: 4px;
-        font-size: 8px;
     }
-    .teach{font-size: 9px;
-    }
+
     #down a{
         font-size: 8px;
         margin-right: 4px;
