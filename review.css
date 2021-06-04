@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Inter', sans-serif;
+}
 .teach {
     display: inline-block;
     color: #000000;
@@ -18,8 +22,10 @@
 }
 
 #comments header{
-    font-family: 'Inter', sans-serif;
+   
     font-weight: 400;
+    padding-top: 55px;
+    padding-bottom: 50px;
 }
 
 #comments .taught{
@@ -118,7 +124,6 @@ nav a {
 footer {
         margin-top: 30px;
         background: rgba(255, 199, 0, 0.4);
-        border: 1px solid #000000;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     
@@ -131,11 +136,16 @@ footer {
         font-weight: normal;
         font-size: 24px;
         color: black;
+        margin: 0 0 0 55px;
     }
     
     .firma {
         display: flex;
         justify-content: space-between;
+    }
+
+    #support{
+        text-align: right;
     }
     
     #support .tech {
