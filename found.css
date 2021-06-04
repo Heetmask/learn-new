@@ -1,0 +1,111 @@
+  
+                    * {
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    .teach {
+                        display: inline-block;
+                        color: #000000;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        text-decoration: none;
+                    }
+                    
+                    body {
+                        font-family: 'Inter', sans-serif;
+                        ;
+                    }
+                    
+                    nav {
+                        display: inline-block;
+                    }
+                    
+                    nav a {
+                        color: #FFC700;
+                        text-decoration: none;
+                        margin-right: 45px;
+                        font-weight: normal;
+                        font-size: 24px;
+                    }
+                    
+                    .taught {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    footer {
+                        background: rgba(255, 199, 0, 0.4);
+                        border: 1px solid #000000;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    }
+                    
+                    .firma {
+                        padding-top: 62px;
+                    }
+                    
+                    #down a {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        color: black;
+                    }
+                    
+                    .firma {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .tech {
+                        background: #454545;
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #FFFFFF;
+                        font-weight: 300;
+                        font-size: 18px;
+                        padding: 14px 86px;
+                        margin-top: 54px;
+                        margin-bottom: 113px;
+                    }
+                    
+                    #cheater {
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                    
+                    #down a {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        color: black;
+                    }
+
+                    @media(max-width: 768px){
+                        .teach{
+                            font-size: 18px;
+                        }
+                        nav a{
+                            font-size: 18px;
+                        }
+                    }
+                    @media(max-width: 425px){
+                        .teach{
+                            font-size:10px;
+                        }
+                        nav a{
+                            font-size: 10px;
+                            margin-right: 6px;
+                        }
+                        #down a{
+                            font-size: 10px;
+                          margin-right: 6px;
+                        }
+                        .tech{
+                            width:200px;
+                            padding-right: 45px;
+                            padding-left: 55px;
+                            font-size: 12px;
+                        }
+                    }
