@@ -508,5 +508,8 @@ font-size: 30px;
     .name{
         font-size: 20px;
     }
+       #teachers .teacher{
+        width:45%;
+    }
   
 }
