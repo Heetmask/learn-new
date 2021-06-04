@@ -166,6 +166,7 @@ footer{
     background: rgba(255, 199, 0, 0.4);
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    padding-right:30px;
 }
 
 #last-teachers .firma{
