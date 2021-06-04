@@ -13,12 +13,90 @@
                         font-size: 24px;
                         text-decoration: none;
                     }
+
+                    header{
+                        margin-bottom: 20px;
+                    }    
+                
+
+                    h1{
+                        font-weight: 600;
+                        font-size: 40px;
+                    }
+
+                    p{
+                        font-size: 20px;
+                    }
+
+                    .reg{
+                        text-align: center;
+                        background:#FFC700 ;
+                        padding-bottom: 30px;
+                    }
+
+                    select{
+                        display: block;
+                        width: 640px;
+                        margin-top: 20px;
+                        padding-right: 120px;
+                        padding-top: 23px;
+                        padding-bottom: 23px;
+                        color: #666666;
+                        font-size:  35px;
+                    }
                     
                     body {
                         font-family: 'Inter', sans-serif;
                         ;
                     }
-                    
+
+                    #predmety{
+                        margin: 0 auto;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                    }
+
+                    #age{
+                        margin: 0 auto;
+                        margin-bottom: 30px;
+                    }
+
+                    #education{
+                        margin: 0 auto;
+                        margin-bottom: 30px;
+                    }
+
+                    .through{
+                        display: inline-block;
+                        text-decoration:none;
+                        background: #FFFFFF;
+                        width: 640px;
+                        height: 75px;
+                        color: #FFC700;
+                        font-weight: normal;
+                        font-size: 35px;
+                        text-align: center;
+                        padding-top: 15px;
+                        border: 1px  #FFC700 solid;
+                        margin-bottom:30px ;
+                    }
+
+                    .search{
+                        display: block;
+                        margin: auto;
+                        text-decoration:none;
+                        background:#FFFFFF ;
+                        width: 640px;
+                        height: 75px;
+                        color: #FFC700;
+                        font-weight: normal;
+                        font-size: 35px;
+                        text-align: center;
+                        padding-top: 15px;
+                        border: 1px  #FFC700 solid;
+                    }
+
+                                        
                     nav {
                         display: inline-block;
                     }
@@ -80,6 +158,11 @@
                         font-weight: normal;
                         font-size: 24px;
                         color: black;
+                    }
+
+                    .container{
+                        max-width: 1300px;
+                        margin:auto ;
                     }
 
                     @media(max-width: 768px){
