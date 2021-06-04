@@ -472,10 +472,7 @@ footer{
     #link_2 .go{
         font-size: 13px;
     }
-    #help .tech{
-            font-size: 15px;
-        }
-}
+  }
 
 @media(max-width:320px){
     ::placeholder{
@@ -496,9 +493,4 @@ footer{
         margin-right: 1px;
         font-weight: bolder;
     }
-    #help .tech {
-            font-size: 10px;
-            width: 120px;
-            height: 40px;
-        }
  }
