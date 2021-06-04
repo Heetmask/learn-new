@@ -203,8 +203,8 @@ footer{
     font-weight: 300;
     font-size: 18px;
     padding: 14px 86px;
-    margin-top: 54px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: inline-block;
 }
 
@@ -473,9 +473,7 @@ footer{
         font-size: 13px;
     }
     #help .tech{
-            font-size: 10px;
-            padding-left: 40px;
-            padding-right: 60px;
+            font-size: 15px;
         }
 }
 
@@ -499,7 +497,8 @@ footer{
         font-weight: bolder;
     }
     #help .tech {
-            padding-left: 20px;
-            padding-right: 50px;
+            font-size: 10px;
+            width: 120px;
+            height: 40px;
         }
  }
