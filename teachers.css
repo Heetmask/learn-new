@@ -472,6 +472,11 @@ footer{
     #link_2 .go{
         font-size: 13px;
     }
+    #help .tech{
+            font-size: 10px;
+            padding-left: 40px;
+            padding-right: 60px;
+        }
 }
 
 @media(max-width:320px){
