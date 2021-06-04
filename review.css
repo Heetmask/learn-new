@@ -165,8 +165,7 @@ footer {
         justify-content: flex-end;
     }
     
-    .
-down a {
+    #down a {
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -370,7 +369,7 @@ down a {
         font-size: 8px;
         font-weight: bold;
     }
-    #last-comments .down a{
+    #down a{
         font-size: 8px;
         margin-right: 2px;
         font-weight: bolder;
