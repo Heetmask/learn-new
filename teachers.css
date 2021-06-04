@@ -498,4 +498,8 @@ footer{
         margin-right: 1px;
         font-weight: bolder;
     }
+    #help .tech {
+            padding-left: 20px;
+            padding-right: 50px;
+        }
  }
