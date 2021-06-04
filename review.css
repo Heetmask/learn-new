@@ -131,14 +131,6 @@ footer {
         padding-top: 62px;
     }
     
-    #down a {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        color: black;
-        margin: 0 0 0 55px;
-    }
-    
     .firma {
         display: flex;
         justify-content: space-between;
@@ -165,7 +157,7 @@ footer {
         justify-content: flex-end;
     }
     
-    #down a {
+    #last-comments .down a {
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -369,7 +361,7 @@ footer {
         font-size: 8px;
         font-weight: bold;
     }
-    #down a{
+    #last-comments .down a{
         font-size: 8px;
         margin-right: 2px;
         font-weight: bolder;
