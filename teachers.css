@@ -530,20 +530,25 @@ footer{
         padding-left: 40px;
         padding-right: 60px;
     }
-}
-@media(max-width: 320px) {
-    #down a {
-        font-size: 10px;
-        margin-right: 10px;
+} 
+
+@media(max-width:320px){
+    ::placeholder{
+        font-size : 25px;
+      }
+      #bodddy input{
+        width: 100%;
+      }
+      #bodddy button{
+        width: 100%;
+      }
+      #last-teachers .teach{
+        font-size: 8px;
+        font-weight: bolder;
     }
-    nav a {
-        font-size: 10px;
+    #last-teachers .down a{
+        font-size: 9px;
+        margin-right: 1px;
+        font-weight: bolder;
     }
-    .teach {
-        font-size: 10px;
-    }
-    .tech {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
+ }
