@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bodddy form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+#bodddy input {
+    width: 70%;
+    background: #fff;
+    padding-left: 36px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#bodddy button {
+    height: 65px;
+    width: 310px;
+    background: #FFC700;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#bodddy input,
+button {
+    border-radius: 5px;
+}
+
+#bodddy button {
+    border-radius: 5px;
+    border-color: #FFC700;
+}
+
+#teachers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #ffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+#teachers img {
+    margin-top: 20px;
+}
+
+#bodddy h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-top: 72px;
+    margin-bottom: 25px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#teachers .teacher {
+    width: 30%;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+#teachers p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+#teachers h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+#cheaters .star {
+    margin-bottom: 3px;
+}
+
+#teachers .pavel,
+#teachers .aleksandr,
+#teachers .maria {
+    margin-bottom: 30px;
+}
+
+#links .link {
+    display: flex;
+    justify-content: center;
+}
+
+#links a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+#links .back {
+    margin-right: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #FFC700;
+}
+
+#links .go {
+    margin-left: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #FFC700;
+}
+
+@media(max-width:1080px) {
+    .container {
+        max-width: 90%;
+    }
+    #bodddy button {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 995px) {
+    .container {
+        max-width: 90%;
+    }
+    #teachers p {
+        font-size: 19px;
+    }
+    #bodddy h1 {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    #bodddy form {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #bodddy button {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 814px) {
+    #teachers p,
+    #teachers h3 {
+        font-size: 19px;
+    }
+}
+
+@media(max-width:725px) {
+    #teachers .teacher {
+        width: 45%;
+    }
+    #teachers .pavel,
+    #teachers .aleksandr,
+    #teachers .maria {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 550px) {
+    #teachers .teacher {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    #teachers p,
+    #teachers h3 {
+        font-size: 25px;
+    }
+    #bodddy form {
+        flex-direction: column;
+    }
+     ::placeholder {
+        font-size: 25px;
+    }
+    #bodddy input {
+        padding-left: 7px;
+        width: 80%;
+        font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+    #bodddy button {
+        background: #FFC700;
+        width: 80%;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #links a {
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 18px;
+    }
+}
+
+@media(max-width:320px) {
+     ::placeholder {
+        font-size: 25px;
+    }
+    #bodddy input {
+        width: 100%;
+    }
+    #bodddy button {
+        width: 100%;
+    }
+}
